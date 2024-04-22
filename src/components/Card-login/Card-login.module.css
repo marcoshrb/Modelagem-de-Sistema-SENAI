@@ -1,5 +1,5 @@
 .CardBack{
-    background-color: rgb(197, 197, 197);
+    background-color: rgba(197, 197, 197, 0.6);
     width: 90vw;
     height: 70vh;
     border-radius: 10px;
@@ -12,11 +12,10 @@
 .Card-Icon{
     margin: 10px;
     width: 50%;
-    background-color: white;
+    background-color: rgba(238, 238, 238, 0.6);
     border-radius: 20px;
     text-align: center;
-    opacity: 60%;
-    box-shadow: 5px 5px 5px rgb(141, 141, 141);
+    box-shadow: 5px 5px 5px rgb(141, 141, 141, 0.6);
 }
 .Logo-login{
     width: 100%;
