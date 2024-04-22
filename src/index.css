@@ -1,6 +1,18 @@
 :root {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   --color-text: blue;
+  --gradient : linear-gradient(45deg,
+  hsl(240deg 91% 25%) 3%,
+  hsl(247deg 28% 36%) 31%,
+  hsl(269deg 8% 40%) 41%,
+  hsl(32deg 9% 45%) 49%,
+  hsl(46deg 20% 47%) 55%,
+  hsl(50deg 29% 49%) 60%,
+  hsl(51deg 39% 50%) 65%,
+  hsl(53deg 49% 51%) 70%,
+  hsl(53deg 59% 52%) 76%,
+  hsl(54deg 70% 51%) 84%,
+  hsl(55deg 84% 49%) 100%);
 }
 * {
   padding: 0%;
