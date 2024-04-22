@@ -1,0 +1,40 @@
+.CardBack{
+    background-color: rgb(197, 197, 197);
+    width: 90vw;
+    height: 50vh;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 5px 5px 5px rgb(141, 141, 141);
+}
+.Card-Icon{
+    width: 50%;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    opacity: 60%;
+    box-shadow: 5px 5px 5px rgb(141, 141, 141);
+}
+.Logo-login{
+    width: 100%;
+}
+input{
+    border: 0cap;
+    border-radius: 10px;
+    height: 10%;
+    width: 90%;
+    box-shadow: 5px 5px 5px rgb(141, 141, 141);
+}
+.Card-Inputs{
+    height: 100%;
+}
+.button-Login{
+    border: 0cap;
+    width: 90%;
+    height: 20%;
+    border-radius: 10px;
+    background-color: rgba(65, 169, 244, 1);
+    color: white;
+    margin: 5%;
+}

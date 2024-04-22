@@ -1,0 +1,20 @@
+:root {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  --color-text: blue;
+}
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+body {
+  scroll-behavior: smooth;
+}
+
+button{ 
+  transition: all 200ms ease-in;
+}
+
+button:hover{
+  cursor: pointer;
+}
