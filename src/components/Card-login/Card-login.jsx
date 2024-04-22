@@ -17,10 +17,12 @@ export const CardLogin = () => {
                 <button className={style["button-Login"]}>
                     Login
                 </button>
-                <hr className={style["line-Login"]}/>
-                <h1>
-                    Não possui login? 
-                </h1>
+                <hr className={style["line-Login"]} />
+                <div className={style["Link-Cadastro"]}>
+                    <p>
+                        Não possui login? <a>Cadastrar</a>
+                    </p>
+                </div>
 
             </div>
         </>

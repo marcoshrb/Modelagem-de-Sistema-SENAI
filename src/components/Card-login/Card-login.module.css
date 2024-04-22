@@ -1,7 +1,7 @@
 .CardBack{
     background-color: rgb(197, 197, 197);
     width: 90vw;
-    height: 50vh;
+    height: 70vh;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -9,6 +9,7 @@
     box-shadow: 5px 5px 5px rgb(141, 141, 141);
 }
 .Card-Icon{
+    margin: 10px;
     width: 50%;
     background-color: white;
     border-radius: 20px;
@@ -20,14 +21,18 @@
     width: 100%;
 }
 input{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
     border: 0cap;
     border-radius: 10px;
-    height: 10%;
+    height: 40px;
     width: 90%;
     box-shadow: 5px 5px 5px rgb(141, 141, 141);
 }
 .Card-Inputs{
     height: 100%;
+    margin: 5%;
 }
 .button-Login{
     border: 0cap;
@@ -37,4 +42,12 @@ input{
     background-color: rgba(65, 169, 244, 1);
     color: white;
     margin: 5%;
+}
+.line-Login{
+    width: 90%;
+    color: black;
+    border-color: black;
+}
+.Link-Cadastro{
+    display: flex;
 }
