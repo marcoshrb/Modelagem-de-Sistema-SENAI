@@ -20,7 +20,7 @@ export const CardLogin = () => {
                 <hr className={style["line-Login"]} />
                 <div className={style["Link-Cadastro"]}>
                     <p>
-                        Não possui login? <a>Cadastrar</a>
+                        Não possui login? <a href="/cadastro">Cadastrar</a>
                     </p>
                 </div>
 

@@ -7,11 +7,16 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import LoginPage from './Pages/Login/LoginPage.jsx';
+import CadastroPage from './Pages/Cadastro/CadastroPage.jsx';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <LoginPage/>,
+  },
+  {
+    path: "/cadastro",
+    element: <CadastroPage/>,
   },
   {
     path: "/app",
