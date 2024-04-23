@@ -4,9 +4,10 @@ import style  from "./Game.module.css";
 export default function GamePage() {
     return(
         <>
-        <div>
             <NavBar/>
-        </div>
+            <div className={style.game}>
+
+            </div>
         </>
     );
 }
