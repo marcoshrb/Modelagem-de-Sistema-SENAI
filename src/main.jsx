@@ -8,6 +8,8 @@ import {
 } from "react-router-dom";
 import LoginPage from './Pages/Login/LoginPage.jsx';
 import CadastroPage from './Pages/Cadastro/CadastroPage.jsx';
+import GamePage from "./Pages/Game/Game"
+import { NavBar } from "./components/Nav-bar/Nav-bar";
 
 const router = createBrowserRouter([
   {
@@ -21,6 +23,10 @@ const router = createBrowserRouter([
   {
     path: "/app",
     element: <App/>,
+  },
+  {
+    path: "/home",
+    element: <GamePage/>,
   },
 ]);
 
