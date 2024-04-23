@@ -1,10 +1,10 @@
-/* Nav-bar.module.css */
+
 .navbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 10px 20px;
-  background-color: #333;
+  background-color: #1092F0;
 }
 
 .logo {
@@ -22,15 +22,15 @@
 .menu {
   position: absolute;
   top: 0;
-  left: -200px; /* Posiciona o menu fora da tela por padrão */
-  height: 100vh; /* Define a altura do menu como a altura da tela */
-  width: 200px; /* Define a largura do menu */
-  background-color: #333;
-  transition: left 0.3s ease; /* Adiciona uma transição suave ao abrir e fechar o menu */
+  left: -200px;
+  height: 100vh;
+  width: 200px;
+  background-color: #1092F0;
+  transition: left 0.3s ease;
 }
 
 .menu.active {
-  left: 0; /* Posiciona o menu à esquerda quando ativo */
+  left: 0;
 }
 
 .menu a {
