@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
-import Logo from "../../assets/hippo.png";
+import Logo from "../../assets/hippoSimp.png";
 import style from "./Nav-bar.module.css";
 
 export const NavBar = () => {
