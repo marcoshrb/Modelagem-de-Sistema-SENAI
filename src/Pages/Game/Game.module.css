@@ -1,5 +1,22 @@
 .game {
     background-image: var(--gradient);
-    height: 100vh;
+    height: 90vh;
     width: 100vw;
+    display: flex;
+    align-items: end;
+    justify-content: space-between
+}
+.ImgLogoOut {
+    padding: 3px;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(213, 219, 219, 0.5);
+    border-radius: 50px;
+    margin: 20px;
+}
+.ImagemGame{
+    height: 60vh;
+}
+.imgsSocialMedia{
+    height: 100%;
 }

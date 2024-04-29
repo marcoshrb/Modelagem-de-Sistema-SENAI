@@ -1,7 +1,16 @@
+// import { useHistory } from "react-router-dom";
 import style from "./Card-login.module.css"
 import Logo from "../../assets/hippo.png"
 
 export const CardLogin = () => {
+
+    // const history = useHistory();
+    
+    const Login = () => 
+    {
+        // history.push("/home");
+    }
+
     return (
         <>
             <div className={style.CardBack}>
@@ -14,7 +23,7 @@ export const CardLogin = () => {
                     <label>Senha:</label>
                     <input></input>
                 </div>
-                <button className={style["button-Login"]}>
+                <button className={style["button-Login"]} onClick={Login}>
                     Login
                 </button>
                 <hr className={style["line-Login"]} />

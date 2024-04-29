@@ -12,7 +12,9 @@ export const NavBar = () => {
 
     return (
         <div className={style.navbar}>
-            <img src={Logo} alt="NSS Logo" className={style.logo} />
+            <div className={style.cardLogo}>
+                <img src={Logo} alt="NSS Logo" className={style.logo} />
+            </div>
             <button className={style.menuButton} onClick={toggleMenu}>
                 Menu
             </button>

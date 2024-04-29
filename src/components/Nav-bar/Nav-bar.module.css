@@ -6,6 +6,12 @@
   padding: 10px 20px;
   background-color: #1092F0;
 }
+.cardLogo
+{
+  background-color: rgba(112, 112, 112, 0.7);
+  padding: 10px;
+  border-radius: 10px;
+}
 
 .logo {
   width: 50px;
